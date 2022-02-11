@@ -1,0 +1,74 @@
+{
+    "posts": [{
+
+            "FullName": "Asmati Metreveli",
+            "UserName": "metreveli",
+            "Email": "metreveli.0211@gmail.com ",
+            "password": "macaco"
+
+        },
+        {
+
+            "FullName": "macaco Metreveli",
+            "UserName": "metreveli",
+            "Email": "macaco.metreveli17@gmail.com ",
+            "password": "macaco"
+
+        }
+    ],
+    "signUpUser": [{
+            "fullName": "asmati metreveli",
+            "userName": " ",
+            "email": " ",
+            "password": " ",
+            "confirmpassword": " "
+
+        },
+        {
+            "fullName": "ასმათი მეტრეველი",
+            "userName": " ",
+            "email": " ",
+            "password": " ",
+            "confirmpassword": " "
+
+        },
+        {
+            "fullName": "asmati metreveli",
+            "userName": " ",
+            "email": " ",
+            "password": " ",
+            "confirmpassword": " ",
+            "checkbox": " "
+
+        },
+        {
+            "fullName": "asmati metreveli",
+            "userName": " ",
+            "email": " ",
+            "password": " mk",
+            "confirmpassword": " mk",
+            "checkbox": true
+        },
+        {
+            "fullName": "asmati metreveli",
+            "userName": " ",
+            "email": " ",
+            "password": " ",
+            "confirmpassword": " ",
+            "checkbox": " "
+
+        },
+        {
+            "fullName": "asmati metreveli",
+            "userName": " ",
+            "email": " ",
+            "password": " ",
+            "confirmpassword": " ",
+            "checkbox": " "
+
+        }
+    ],
+    "profile": {
+        "name": "typicode"
+    }
+}

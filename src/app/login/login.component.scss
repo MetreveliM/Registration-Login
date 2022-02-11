@@ -1,0 +1,41 @@
+.card {
+    margin-top: 10px;
+    border: none;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    top: 20%;
+    left: 30%;
+    transform: translate(-50% -50%);
+    background: rgb(25, 95, 25);
+    background: linear-gradient(90deg, rgb(147, 189, 69)0%, hsla(260, 29%, 36%, 1)100%);
+}
+
+.mb-1 {
+    margin: 25px 50px;
+}
+
+.mb-2 {
+    margin: 15px 80px;
+}
+
+.form-check {
+    margin: 15px 140px;
+}
+
+.btn-primary {
+    margin: 15px 300px;
+    color: rgb(19, 23, 78);
+    width: 80px;
+}
+
+.btn-primary1 {
+    margin: -5px 300px;
+    color: rgb(19, 23, 78);
+    width: 80px;
+}
+
+h1 {
+    margin: 25px 150px;
+    color: rgb(64, 174, 182);
+}

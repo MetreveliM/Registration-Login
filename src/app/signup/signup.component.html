@@ -1,0 +1,51 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md--6">
+            <div class="card">
+                <div class="trxt-center">
+                    <h1>Registration</h1>
+
+                </div>
+
+                <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+
+                    <div class="mb-1">
+                        <label for="exampleInputfullName" class="form-label">Full Name</label>
+                        <input formControlName="fullName" type=" text " class="form-control " id="exampleInputfullName " aria-describedby="emailHelp ">
+                        <div id="fullNameHelp " class="form-text "></div>
+                    </div>
+
+                    <div class="mb-2 ">
+                        <label for="exampleInputUserName " class="form-label ">User Name</label>
+                        <input formControlName=" userName" type="text" class="form-control " id="exampleInputUserName " aria-describedby="emailHelp ">
+                        <div id="userName " class="form-text "></div>
+                    </div>
+
+                    <div class="mb-3 ">
+                        <label for="exampleInputEmail1 " class="form-label ">Email </label>
+                        <input formControlName=" email" type="email" class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp ">
+                        <div id="emailHelp " class="form-text "></div>
+                    </div>
+
+                    <div class="mb-4 ">
+                        <label for="exampleInputPassword1 " class="form-label ">Password</label>
+                        <input formControlName="password" type="password" class="form-control " id="exampleInputPassword1 ">
+                    </div>
+                    <div class="mb-5 ">
+                        <label for="exampleInputPassword2 " class="form-label ">Confirm Password</label>
+                        <input formControlName="confirmpassword" type="password" class="form-control " id="exampleInputPassword2 ">
+                    </div>
+                    <div class="mb-3 form-check ">
+                        <input formControlName="checkbox" type="checkbox" class="form-check-input " id="exampleCheck1 ">
+                        <label class="form-check-label " for="exampleCheck1 ">I have read add agree to the Terms Accept Terms is required</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary1" routerLink="/login">Login</button>
+                    <button type="submit" class="btn btn-primary2">Sign Up</button>
+
+                </form>
+                //
+                <a routerLink="/login "></a>
+            </div>
+        </div>
+    </div>
+</div>
